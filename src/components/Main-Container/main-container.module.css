@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+}
+
+.flexContainer {
+  width: 94%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0;
+  margin-top: 50px;
+}
+
+.image {
+  width: auto;
+  border-radius: 10px;
+  max-height: 800px;
+  margin: 0 30px 40px;
+}
+
+.desktopImage {
+  display: block;
+}
+
+.mobileImage {
+  display: none;
+}
+
+.flexItem {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.shifted {
+  display: inline-block;
+  margin-left: 160px;
+}
+
+p {
+  width: fit-content;
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.button {
+  color: #1e3a8a;
+  border-color: #1e3a8a;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.button:hover {
+  background-color: #e5e7eb;
+  border-color: #1e3a8a;
+}
+
+.pc {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .desktopImage {
+    display: none;
+  }
+  .mobileImage {
+    display: block;
+    margin: 0;
+  }
+  .flexContainer {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+  }
+  p {
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+  .shifted {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+
+}

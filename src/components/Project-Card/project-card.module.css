@@ -1,0 +1,110 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 32px;
+  border: 1px solid #004c99;
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 370px;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; 
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.techContainer {
+  margin: 16px 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  background-color: #004c99;
+  color: white;
+  font-weight: 600;
+}
+
+.carouselWrapper {
+  width: 100%;
+  max-width: 570px;
+  margin: 10px 10px 0 0;
+}
+
+.image {
+  width: 100%;
+  max-height: 315px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;    
+    margin-bottom: 15px;
+    gap: 0;
+    max-height: 600px;
+  }
+  
+  .date {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .textContent {
+    padding: 10px ; 
+  }
+
+  .description {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .techContainer {
+    margin: 8px 0;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  
+  .chip {
+    background-color: #004c99;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .carouselWrapper {
+    width: 100%;
+    max-width: 570px;
+    margin: 10px 10px 0 0;
+  }
+  
+  .image {
+    width: 100%;
+    max-height: 315px;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  
+}
+
+

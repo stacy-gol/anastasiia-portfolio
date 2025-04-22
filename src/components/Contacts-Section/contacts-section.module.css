@@ -1,0 +1,151 @@
+.container {
+  margin: 0 auto;
+  padding: 0 !important;
+  color: #3568CC;
+}
+
+.smallContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 325px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #3568CC;
+  margin: 10px 0 20px;
+}
+
+.description {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: space-between;
+  gap: 370px;
+  align-items: flex-start;
+}
+
+.contactName {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: 'Merriweather', serif;
+}
+
+.button {
+  background-color: #3568CC;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  min-width: 130px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #3568CC;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+}
+
+.footerLink {
+  text-decoration: none;
+  font-weight: 700;
+  color: #3568CC;
+}
+
+@media (max-width: 768px) {
+  .container {
+    color: #3568CC;
+    padding: 0 !important;
+  }
+  
+  .smallContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #3568CC;
+    margin: 10px 0 20px;
+  }
+  
+  .description {
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .contactsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contactRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: flex-start;
+  }
+  
+  .contactName {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .button {
+    background-color: #3568CC;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    min-width: 130px;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #3568CC;
+  }
+  
+  .footer {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .footerLink {
+    text-decoration: none;
+    font-weight: 700;
+    color: #3568CC;
+  }
+}
+
+@media (max-width: 480px) {
+  
+}

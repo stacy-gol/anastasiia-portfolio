@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 32px;
+  border: 1px solid #004c99;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.date {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.techContainer {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  background-color: #004c99;
+  color: white;
+  font-weight: 600;
+}
+
+.image {
+  padding: 10px;
+  object-fit:contain;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 15px;
+  }
+  .date {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .description {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+}
