@@ -1,6 +1,7 @@
 import { Box, Button, Divider } from '@mui/material';
 import styles from './main-container.module.css';
 import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '../Language-Switcher/language-switcher';
 
 
 const MainContainer = () => {
@@ -11,6 +12,7 @@ const resumeLink =
     : 'https://drive.google.com/file/d/1V21AlhoyfN4gxsSgSGgSArsR6h5_8UX9/view?usp=sharing';
   return (
     <Box className={styles.container}>
+      <LanguageSwitcher></LanguageSwitcher>  
       <Box className={styles.flexContainer}>
         <Box>
           {/* Desktop image*/}
