@@ -8,8 +8,8 @@ const MainContainer = () => {
   const { t, i18n } = useTranslation();
 const resumeLink =
   i18n.language === 'ru'
-    ? 'https://drive.google.com/file/d/1c4Srnq0uMQe7BU5_4MdLX9SCPgSV9S2q/view?usp=sharing'
-    : 'https://drive.google.com/file/d/1V21AlhoyfN4gxsSgSGgSArsR6h5_8UX9/view?usp=sharing';
+    ? 'https://drive.google.com/file/d/1V21AlhoyfN4gxsSgSGgSArsR6h5_8UX9/view?usp=sharing'
+    : 'https://drive.google.com/file/d/1c4Srnq0uMQe7BU5_4MdLX9SCPgSV9S2q/view?usp=sharing';
   return (
     <Box className={styles.container}>
       <LanguageSwitcher></LanguageSwitcher>  
