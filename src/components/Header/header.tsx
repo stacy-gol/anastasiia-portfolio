@@ -21,7 +21,7 @@ export function Header() {
       {/* Header */}
       <Box className={headerStyles.header}>
         <div className={headerStyles.titleContainer}>
-            <h1>Anastasia</h1>
+            <h1>Anastasiia</h1>
             <h1>Golovina</h1>
         </div>
         <img

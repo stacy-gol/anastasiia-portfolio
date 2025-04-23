@@ -16,13 +16,12 @@ interface Education {
 
 const projects: Project[] = [
   {
-    name: 'Carrot quest',
+    name: 'Carrot quest - TOP-5 Russian Marketing Platform',
     date: '2022 – now',
     description: 'As part of Carrot quest team, I migrated the company website from Gatsby to Next.js to improve performance and unify codebases. I introduced TypeScript, ESLint, reusable UI components, and built interactive features like quizzes, pop-ups, banners, and video widgets.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Next', 'Gatsby'],
     images: [
       'https://res.cloudinary.com/dfeszdhhf/image/upload/t_for portfolio/v1745241609/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-04-21_%D0%B2_18.17.53_umahio.png',
-      'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745241609/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-04-21_%D0%B2_18.17.53_umahio.png',
       'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745241612/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-04-21_%D0%B2_18.17.11_juabee.png',
       'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745129124/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-04-18_%D0%B2_11_online-video-cutter.com_arstpo.gif',
       'https://res.cloudinary.com/dfeszdhhf/image/upload/v1745134753/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-04-18_%D0%B2_11_online-video-cutter.com_1_lanxi4.gif',
@@ -46,7 +45,7 @@ const projects: Project[] = [
     link: "https://github.com/stacy-gol/stellar-burgers"
   },
   {
-    name: 'The Welder Catherine Blog',
+    name: 'The Welder Catherine - one of the biggest Coffee Producers in Russia',
     date: '2022 – now',
     description: 'I independently wrote or translated blog texts and built the layout using HTML and CSS directly on the website powered by Bitrix.',
     technologies: ['HTML', 'CSS', 'Bitrix'],
@@ -58,7 +57,7 @@ const projects: Project[] = [
     NDA: "The code is under NDA",
   },
   {
-    name: 'HEADO Email campaigns',
+    name: 'HEADO - Digital Assistant for Retail Stores',
     date: '2024 – now',
     description: 'I created responsive HTML emails based on Figma designs with pixel-perfect layout and cross-client compatibility. All templates were tested and optimized for major email clients like Gmail and Mail.ru, ensuring consistent user experience and clear communication.',
     technologies: ['JavaScript', 'HTML', 'CSS'],

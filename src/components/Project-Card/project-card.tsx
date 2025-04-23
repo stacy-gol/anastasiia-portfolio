@@ -1,13 +1,12 @@
 import React from 'react';
 import { Box, Chip } from '@mui/material';
 
-import { Navigation, Pagination } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css'; 
+
+import { Navigation, Pagination } from 'swiper/modules';
 
 import styles from './project-card.module.css';
 

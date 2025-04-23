@@ -6,9 +6,8 @@
 
 .smallContainer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 325px;
 }
 
 .divider {
@@ -108,21 +107,18 @@
     align-items: center;
     padding: 10px 0;
     justify-content: space-between;
-    gap: 80px;
+    gap: 45px;
     align-items: flex-start;
   }
   
   .contactName {
-    font-size: 40px;
-    font-weight: 400;
-    text-transform: lowercase;
-    font-family: 'Merriweather', serif;
+    font-size: 22px;
   }
   
   .button {
     background-color: #3568CC;
     color: white;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;

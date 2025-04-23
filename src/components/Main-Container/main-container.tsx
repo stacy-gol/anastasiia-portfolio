@@ -40,8 +40,8 @@ const MainContainer = () => {
           </p>
           {/* Button */}
           <Box className={styles.buttonContainer}>
-            <Button variant="outlined" href="#" className={styles.button}>
-              download my resume
+            <Button variant="outlined" href="https://drive.google.com/file/d/1c4Srnq0uMQe7BU5_4MdLX9SCPgSV9S2q/view?usp=sharing" className={styles.button}>
+              check my resume
             </Button>
           </Box>
         </Box>

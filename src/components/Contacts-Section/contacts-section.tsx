@@ -17,7 +17,7 @@ const ContactsSection: React.FC = () => {
       <div className={styles.smallContainer}>
         {/* description */}
         <p className={styles.description}>
-        Let's build something meaningful together — feel free to reach out, the best part might just be ahead.
+        Let's build something meaningful together — <br/>feel free to reach out, the best part might just be ahead.
         </p>
 
         {/* contacts */}
@@ -45,7 +45,7 @@ const ContactsSection: React.FC = () => {
       {/* credits */}
       <p className={styles.footer}>
         designed by{' '}
-        <a href="#" className={styles.footerLink}>
+        <a href="https://www.behance.net/diidentikit" target='_blank' className={styles.footerLink}>
           dima andreenko
         </a>
       </p>
