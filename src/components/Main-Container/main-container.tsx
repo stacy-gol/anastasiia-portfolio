@@ -1,7 +1,14 @@
 import { Box, Button, Divider } from '@mui/material';
 import styles from './main-container.module.css';
+import { useTranslation } from 'react-i18next';
+
 
 const MainContainer = () => {
+  const { t, i18n } = useTranslation();
+const resumeLink =
+  i18n.language === 'ru'
+    ? 'https://drive.google.com/file/d/1c4Srnq0uMQe7BU5_4MdLX9SCPgSV9S2q/view?usp=sharing'
+    : 'https://drive.google.com/file/d/1V21AlhoyfN4gxsSgSGgSArsR6h5_8UX9/view?usp=sharing';
   return (
     <Box className={styles.container}>
       <Box className={styles.flexContainer}>
@@ -23,25 +30,17 @@ const MainContainer = () => {
         />
         <Box className={styles.flexItem}>
           <h1 className={styles.flexItem_title}>
-            front-end <br />
-            <span className={styles.shifted}>developer</span>
+          {t('main.title')}<br />
+            <span className={styles.shifted}>{t('main.subtitle')}</span>
           </h1>
-          <p>
-          I am a frontend developer with a background in linguistics who transitioned from human languages to programming languages. With English and French in my toolkit, I connect with people from all over the world and use these skills to keep learning — including in coding. 
-          </p>
-          <p>
-          After gaining solid experience in tech support, I learned programming on real-world problems and keep improving by building new projects. 
-          </p>
-          <p> 
-            My current stack includes JavaScript, TypeScript, React, and Next.js.
-          </p>
-          <p>
-            I'm passionate about the topics of women's health and well-being and hope to join a femtech project someday.
-          </p>
+          <p>{t('main.paragraph1')}</p>
+          <p>{t('main.paragraph2')}</p>
+          <p>{t('main.paragraph3')}</p>
+          <p>{t('main.paragraph4')}</p>
           {/* Button */}
           <Box className={styles.buttonContainer}>
-            <Button variant="outlined" href="https://drive.google.com/file/d/1c4Srnq0uMQe7BU5_4MdLX9SCPgSV9S2q/view?usp=sharing" className={styles.button}>
-              check my resume
+            <Button variant="outlined" href={resumeLink} target="_blank" rel="noopener noreferrer" className={styles.button}>
+            {t('main.resumeButton')}
             </Button>
           </Box>
         </Box>

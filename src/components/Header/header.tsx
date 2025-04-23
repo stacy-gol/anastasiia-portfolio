@@ -1,14 +1,16 @@
 import { Box, Link, Divider } from '@mui/material';
 import headerStyles from './header.module.css';
+import { useTranslation } from 'react-i18next';
 
-
-const links = [
-  { id: 'about-me', label: 'About me' },
-  { id: 'experience', label: 'My experience' },
-  { id: 'contacts', label: 'Contacts' },
-];
 
 export function Header() {
+  const { t } = useTranslation();
+
+  const links = [
+    { id: 'about-me', label: t('nav.about') },
+    { id: 'experience', label: t('nav.experience') },
+    { id: 'contacts', label: t('nav.contacts') },
+  ];
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -21,8 +23,8 @@ export function Header() {
       {/* Header */}
       <Box className={headerStyles.header}>
         <div className={headerStyles.titleContainer}>
-            <h1>Anastasiia</h1>
-            <h1>Golovina</h1>
+            <h1>{t('nav.name')}</h1>
+            <h1>{t('nav.surname')}</h1>
         </div>
         <img
           src="https://res.cloudinary.com/dfeszdhhf/image/upload/v1732378288/star_n9hwq8.png"

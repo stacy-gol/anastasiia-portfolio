@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Box, Chip } from '@mui/material';
 
 
@@ -26,18 +27,19 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+  const { t } = useTranslation();
   return (
     <Box className={styles.card}>
       {/* Text info */}
       <Box className={styles.textContent}>
         <h3>
-          {project.name}
+        {t(project.name)}
         </h3>
         <p className={styles.date}>
           {project.date}
         </p>
         <p className={styles.description}>
-          {project.description}
+        {t(project.description)}
         </p>
         <Box className={styles.techContainer}>
           {project.technologies.map((tech, index) => (
@@ -58,18 +60,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           ))}
         </Box>
         <p className={styles.description}>
-          {project.NDA
-            ? 'The code is under NDA'
+        {project.NDA
+            ? t('projectCard.nda')
             : project.link && (
                 <>
-                  The code is{' '}
+                  {t('projectCard.codeIs')}{' '}
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: '#3568CC', textDecoration: 'underline' }}
                   >
-                    here
+                    {t('projectCard.here')}
                   </a>
                 </>
               )}

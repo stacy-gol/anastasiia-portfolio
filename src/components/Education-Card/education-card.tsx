@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Box } from '@mui/material';
 import styles from './Education-card.module.css';
 
@@ -14,18 +15,19 @@ interface EducationCardProps {
 }
 
 const EducationCard: React.FC<EducationCardProps> = ({ institution }) => {
+  const { t } = useTranslation();
   return (
     <Box className={styles.card}>
       {/* Text info */}
       <Box className={styles.textContent}>
         <h3>
-          {institution.name}
+        {t(institution.name)}
         </h3>
         <p className={styles.date}>
           {institution.date}
         </p>
         <p className={styles.description}>
-          {institution.description}
+        {t(institution.description)}
         </p>   
       </Box>
     </Box>

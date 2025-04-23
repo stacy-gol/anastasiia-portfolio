@@ -1,0 +1,79 @@
+{
+    "nav": {
+        "about": "About me",
+        "experience": "My experience",
+        "contacts": "Contacts",
+        "name": "Anastasiia",
+        "surname": "Golovina"
+      },
+    "main": {
+        "title": "front-end",
+        "subtitle": "developer",
+        "paragraph1": "I am a frontend developer with a background in linguistics who transitioned from human languages to programming languages. With English and French in my toolkit, I connect with people from all over the world and use these skills to keep learning — including in coding.",
+        "paragraph2": "After gaining solid experience in tech support, I learned programming on real-world problems and keep improving by building new projects.",
+        "paragraph3": "My current stack includes JavaScript, TypeScript, React, and Next.js.",
+        "paragraph4": "I'm passionate about the topics of women's health and well-being and hope to join a femtech project someday.",
+        "resumeButton": "check my resume"
+    }, 
+    "experience": {
+        "title": "My experience",
+        "projects": "Projects",
+        "nda": "The code is under NDA",
+        "codeIs": "The code is",
+        "here": "here"
+      },
+      "projects": {
+        "carrotQuest": {
+          "nameKey": "Carrot quest - TOP-5 Russian Marketing Platform",
+          "descriptionKey": "As part of Carrot quest team, I migrated the company website from Gatsby to Next.js to improve performance and unify codebases. I introduced TypeScript, ESLint, reusable UI components, and built interactive features like quizzes, pop-ups, banners, and video widgets."
+        },
+        "stellarBurgers": {
+          "nameKey": "Stellar Burgers online shop (Study project)",
+          "descriptionKey": "An online store for hamburgers with an order constructor, authorization, and WEB sockets for the confirmation of the order status is being used as a training project by Yandex courses. The goal of the project was to practice hard-skills and main technologies stack."
+        },
+        "welderCatherine": {
+          "nameKey": "The Welder Catherine - one of the biggest Coffee Producers in Russia",
+          "descriptionKey": "I independently wrote or translated blog texts and built the layout using HTML and CSS directly on the website powered by Bitrix."
+        },
+        "heado": {
+          "nameKey": "HEADO - Digital Assistant for Retail Stores",
+          "descriptionKey": "I created responsive HTML emails based on Figma designs with pixel-perfect layout and cross-client compatibility. All templates were tested and optimized for major email clients like Gmail and Mail.ru, ensuring consistent user experience and clear communication."
+        }
+      },
+      "education": {
+        "yandex": {
+          "nameKey": "Yandex Practicum",
+          "description": "React Developer"
+        },
+        "tomas": {
+          "nameKey": "Tomas Bata University in Zlín",
+          "description": "Exchange programme - English for Business Administration"
+        },
+        "urfu": {
+          "nameKey": "Ural Federal university",
+          "description": "Bachelor's degree - Linguistics"
+        }
+      },
+      "projectCard": {
+        "nda": "The code is under NDA",
+        "codeIs": "The code is",
+        "here": "here"
+      },
+      "educationSection": {
+        "aboutMe": "About Me",
+        "education": "Education"
+      },
+      "contactsSection": {
+        "contacts": "contacts",
+        "description": "Let's build something meaningful together — feel free to reach out, the best part might just be ahead.",
+        "contactButtons": {
+          "contactMe": "Contact me",
+          "check": "Check"
+        }
+      },
+      "footer": {
+        "designedBy": "designed by",
+        "linkText": "dima andreenko"
+      }
+
+}
