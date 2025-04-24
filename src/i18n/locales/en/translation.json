@@ -16,41 +16,41 @@
         "resumeButton": "check my resume"
     }, 
     "experience": {
-        "title": "My experience",
-        "projects": "Projects",
+        "title": "my experience",
+        "projects": "projects",
         "nda": "The code is under NDA",
         "codeIs": "The code is",
         "here": "here"
       },
       "projects": {
         "carrotQuest": {
-          "nameKey": "Carrot quest - TOP-5 Russian Marketing Platform",
-          "descriptionKey": "As part of Carrot quest team, I migrated the company website from Gatsby to Next.js to improve performance and unify codebases. I introduced TypeScript, ESLint, reusable UI components, and built interactive features like quizzes, pop-ups, banners, and video widgets."
+          "name": "Carrot quest - TOP-5 Russian Marketing Platform",
+          "description": "As part of Carrot quest team, I migrated the company website from Gatsby to Next.js to improve performance and unify codebases. I introduced TypeScript, ESLint, reusable UI components, and built interactive features like quizzes, pop-ups, banners, and video widgets."
         },
         "stellarBurgers": {
-          "nameKey": "Stellar Burgers online shop (Study project)",
-          "descriptionKey": "An online store for hamburgers with an order constructor, authorization, and WEB sockets for the confirmation of the order status is being used as a training project by Yandex courses. The goal of the project was to practice hard-skills and main technologies stack."
+          "name": "Stellar Burgers online shop (Study project)",
+          "description": "An online store for hamburgers with an order constructor, authorization, and WEB sockets for the confirmation of the order status is being used as a training project by Yandex courses. The goal of the project was to practice hard-skills and main technologies stack."
         },
         "welderCatherine": {
-          "nameKey": "The Welder Catherine - one of the biggest Coffee Producers in Russia",
-          "descriptionKey": "I independently wrote or translated blog texts and built the layout using HTML and CSS directly on the website powered by Bitrix."
+          "name": "The Welder Catherine - one of the biggest Coffee Producers in Russia",
+          "description": "I independently wrote or translated blog texts and built the layout using HTML and CSS directly on the website powered by Bitrix."
         },
         "heado": {
-          "nameKey": "HEADO - Digital Assistant for Retail Stores",
-          "descriptionKey": "I created responsive HTML emails based on Figma designs with pixel-perfect layout and cross-client compatibility. All templates were tested and optimized for major email clients like Gmail and Mail.ru, ensuring consistent user experience and clear communication."
+          "name": "HEADO - Digital Assistant for Retail Stores",
+          "description": "I created responsive HTML emails based on Figma designs with pixel-perfect layout and cross-client compatibility. All templates were tested and optimized for major email clients like Gmail and Mail.ru, ensuring consistent user experience and clear communication."
         }
       },
       "education": {
         "yandex": {
-          "nameKey": "Yandex Practicum",
+          "name": "Yandex Practicum",
           "description": "React Developer"
         },
         "tomas": {
-          "nameKey": "Tomas Bata University in Zlín",
+          "name": "Tomas Bata University in Zlín",
           "description": "Exchange programme - English for Business Administration"
         },
         "urfu": {
-          "nameKey": "Ural Federal university",
+          "name": "Ural Federal university",
           "description": "Bachelor's degree - Linguistics"
         }
       },
@@ -60,8 +60,8 @@
         "here": "here"
       },
       "educationSection": {
-        "aboutMe": "About Me",
-        "education": "Education"
+        "aboutMe": "about me",
+        "education": "education"
       },
       "contactsSection": {
         "contacts": "contacts",
