@@ -28,7 +28,7 @@
           "description": "As part of Carrot quest team, I migrated the company website from Gatsby to Next.js to improve performance and unify codebases. I introduced TypeScript, ESLint, reusable UI components, and built interactive features like quizzes, pop-ups, banners, and video widgets."
         },
         "stellarBurgers": {
-          "name": "Stellar Burgers online shop (Study project)",
+          "name": "Stellar Burgers online shop",
           "description": "An online store for hamburgers with an order constructor, authorization, and WEB sockets for the confirmation of the order status is being used as a training project by Yandex courses. The goal of the project was to practice hard-skills and main technologies stack."
         },
         "welderCatherine": {
