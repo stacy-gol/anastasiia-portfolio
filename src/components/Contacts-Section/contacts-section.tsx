@@ -1,4 +1,4 @@
-import React from 'react';
+import type React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './contacts-section.module.css';
 
@@ -15,7 +15,7 @@ const ContactsSection: React.FC = () => {
     <div className={styles.container}>
       {/* title */}
       <h1 id="contacts" className={styles.title}>{t('contactsSection.contacts')}</h1>
-      <div className={styles.divider}></div>
+      <div className={styles.divider} />
       <div className={styles.smallContainer}>
         {/* description */}
         <p className={styles.description}>
@@ -25,7 +25,8 @@ const ContactsSection: React.FC = () => {
         {/* contacts */}
         <div className={styles.contactsContainer}>
           {contacts.map((contact, index) => (
-            <div key={index}>
+            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+          <div key={index}>
               <div className={styles.contactRow}>
                 <span className={styles.contactName}>{contact.name}</span>
                 <a 
@@ -38,7 +39,7 @@ const ContactsSection: React.FC = () => {
                 </a>
               </div>
               {index < contacts.length - 1 && (
-                <div className={styles.divider}></div>
+                <div className={styles.divider} />
               )}
             </div>
           ))}
@@ -47,7 +48,7 @@ const ContactsSection: React.FC = () => {
       {/* credits */}
       <p className={styles.footer}>
       {t('footer.designedBy')}{' '}
-        <a href="https://www.behance.net/diidentikit" target='_blank' className={styles.footerLink}>
+        <a href="https://www.behance.net/diidentikit" target='_blank' className={styles.footerLink} rel="noreferrer">
         {t('footer.linkText')}
         </a>
       </p>
